@@ -49,7 +49,3 @@ def analyze_text(text):
     Ejemplo: analyze_text("hola") → "V:2 C:2 T:4 P:50.0%"
     """
     return f"V:{count_vowels(text)} C:{count_consonants(text)} T:{total_letters(text)} P:{vowel_percentage(text)}%"
-
-    Ejemplo: analyze_text("hola") → "V:2 C:2 T:4 P:50.0%"
-    """
-    return "ANSWER HERE"  # Remove this line and implement
